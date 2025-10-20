@@ -103,7 +103,7 @@ Open your browser and navigate to `http://127.0.0.1:7860`
 
 Here's the MediSenseAI application in action, demonstrating the complete voice-to-voice medical consultation workflow:
 
-![Application Demo](https://github.com/Keshavkumarr0/MediSenseAI/blob/main/assets/demo-screenshot.png)
+![Application Demo](https://github.com/Keshavkumarr0/MediSenseAI/blob/main/Screenshot%20(399).png)
 
 **What's happening in this demo:**
 
