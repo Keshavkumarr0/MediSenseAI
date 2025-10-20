@@ -1,0 +1,7 @@
+gradio
+google-generativeai
+python-dotenv
+speechrecognition
+pydub
+gtts
+elevenlabs
