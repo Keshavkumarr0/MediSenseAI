@@ -22,7 +22,7 @@ MediSenseAI is an end-to-end AI-powered medical assistant that enables users to 
 
 The application follows a three-phase workflow:
 
-![Technical Architecture Workflow] (https://github.com/Keshavkumarr0/MediSenseAI/blob/main/workflow.png)
+![Technical Architecture Workflow](https://github.com/Keshavkumarr0/MediSenseAI/blob/main/workflow%20architecture.png)
 
 ### Phase 1: AI Processing (Google Gemini) 🟡
 - User uploads medical image
