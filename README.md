@@ -70,8 +70,8 @@ cd MediSenseAI
 
 2. **Install dependencies**
 ```bash
-pip install -r requirements.txt
-```
+
+
 
 3. **Set up API keys**
 
@@ -133,27 +133,6 @@ The application can be customized by modifying the following parameters:
 - **AI Model**: Switch between different Gemini model versions
 - **UI Theme**: Customize Gradio interface theme and layout
 
-## ⚠️ Disclaimer
-
-**Important**: This application is for educational and informational purposes only. It should NOT be used as a substitute for professional medical advice, diagnosis, or treatment. Always consult qualified healthcare professionals for medical concerns.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-**Keshav Kumar**
 
 - GitHub: [@Keshavkumarr0](https://github.com/Keshavkumarr0)
 
@@ -163,15 +142,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - ElevenLabs for natural text-to-speech technology
 - Gradio for the intuitive UI framework
 
-## 📞 Support
 
-If you encounter any issues or have questions, please:
-- Open an issue on GitHub
-- Check existing issues for solutions
-- Contact the maintainer
-
----
-
-⭐ If you find this project useful, please consider giving it a star!
 
 **Made with ❤️ and AI**
