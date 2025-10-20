@@ -1,4 +1,4 @@
-# 🏥 MediSenseAI - AI-Powered Medical Image Analysis with Voice Interaction
+# 🏥 MediSenseAI - Multimodal AI Medical Consultant with Voice Interface
 
 ![MediSenseAI Banner](https://img.shields.io/badge/AI-Medical%20Assistant-blue?style=for-the-badge&logo=robot)
 ![Python](https://img.shields.io/badge/Python-3.8+-green?style=for-the-badge&logo=python)
