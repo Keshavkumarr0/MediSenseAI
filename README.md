@@ -83,31 +83,6 @@ The application follows a three-phase workflow:
 4. **Listen to Response**: Hear the AI doctor's response in natural voice
 5. **Read Text**: Review both your question and the response in text format
 
----
-
-## 📥 Installation (Local Setup)
-
-### Prerequisites
-
-- Python 3.8 or higher
-- Google Gemini API Key ([Get here](https://aistudio.google.com/app/apikey))
-- ElevenLabs API Key ([Get here](https://elevenlabs.io/app/settings/api-keys))
-
-### Setup Steps
-
-1. **Clone the repository**
-
-
-## 🛠️ Tech Stack
-
-| Component | Technology |
-|-----------|------------|
-| **Frontend** | Gradio |
-| **Backend** | Python 3.8+ |
-| **AI Model** | Google Gemini (Multimodal LLM) |
-| **Speech-to-Text** | AI STT Model |
-| **Text-to-Speech** | ElevenLabs API |
-| **Image Processing** | PIL/Pillow |
 
 ## 🚀 Getting Started
 
