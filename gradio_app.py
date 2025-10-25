@@ -153,12 +153,22 @@ iface = gr.Interface(
     examples=[]
 )
 
+
 # Launch
 if __name__ == "__main__":
+    # Get port from environment variable (Render provides this)
+    port = int(os.environ.get("PORT", 7860))
+    
     print("\n" + "="*60)
     print("🚀 Starting AI Doctor Application...")
-    print("="*60)
-    print("📍 Access at: http://127.0.0.1:7860")
+    print(f"📍 Server running on port: {port}")
     print("="*60 + "\n")
     
-    iface.launch(debug=True, share=False)
+    # Launch with Render-compatible settings
+    iface.launch(
+        server_name="0.0.0.0",  # CRITICAL: Must be 0.0.0.0 for Render
+        server_port=port,
+        share=False,
+        show_error=True,
+        debug=True
+    )
