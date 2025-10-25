@@ -1,45 +1,102 @@
 # 🏥 MediSenseAI - Multimodal AI Medical Consultant with Voice Interface
 
+<div align="center">
+
 ![MediSenseAI Banner](https://img.shields.io/badge/AI-Medical%20Assistant-blue?style=for-the-badge&logo=robot)
 ![Python](https://img.shields.io/badge/Python-3.8+-green?style=for-the-badge&logo=python)
 ![Gemini](https://img.shields.io/badge/Google-Gemini-orange?style=for-the-badge&logo=google)
 ![ElevenLabs](https://img.shields.io/badge/ElevenLabs-TTS-purple?style=for-the-badge)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=render)](https://medisenseai-yn0a.onrender.com)
+
+**[🚀 Try Live Demo](https://medisenseai-yn0a.onrender.com)** | **[📖 Documentation](#features)** | **[🎯 How It Works](#technical-architecture)**
+
+</div>
+
+---
 
 ## 📋 Overview
 
 MediSenseAI is an end-to-end AI-powered medical assistant that enables users to upload medical images and ask questions about them using voice input. The system analyzes the images using Google's Gemini multimodal AI and responds with both text and natural voice output powered by ElevenLabs TTS.
 
-### ✨ Key Features
+**🔗 Live Application:** [https://medisenseai-yn0a.onrender.com](https://medisenseai-yn0a.onrender.com)
 
-- 🎤 **Voice Input**: Speak your medical questions naturally
-- 🖼️ **Image Analysis**: Upload medical images for AI-powered diagnosis
-- 🤖 **AI-Powered Responses**: Leverages Google Gemini for accurate medical analysis
-- 🔊 **Voice Output**: Hear responses in natural-sounding voice via ElevenLabs
-- 📝 **Text Display**: View both transcribed questions and AI responses
+---
+
+## ✨ Key Features
+
+- 🎤 **Voice Input**: Speak your medical questions naturally using built-in microphone
+- 🖼️ **Image Analysis**: Upload medical images (X-rays, scans, etc.) for AI-powered analysis
+- 🤖 **AI-Powered Responses**: Leverages Google Gemini 2.0 Flash for accurate medical insights
+- 🔊 **Voice Output**: Hear responses in natural-sounding voice via ElevenLabs TTS
+- 📝 **Text Display**: View both transcribed questions and AI responses in real-time
 - 🎨 **User-Friendly Interface**: Built with Gradio for seamless interaction
+- 🔒 **Secure**: Environment-based API key management
+
+---
 
 ## 🏗️ Technical Architecture
 
 The application follows a three-phase workflow:
 
-![Technical Architecture Workflow](https://github.com/Keshavkumarr0/MediSenseAI/blob/main/workflow%20architecture.png)
+### Phase 1: Speech-to-Text (STT) 🟢
+1. **Audio Recorder** captures voice input from user
+2. **Speech Recognition API** converts audio to text
+3. Transcribed query is prepared for processing
 
-### Phase 1: AI Processing (Google Gemini) 🟡
-- User uploads medical image
-- Receives transcribed text/user query
-- **Multimodal LLM (Gemini)** processes both image and text
-- Generates intelligent medical analysis
-- Returns comprehensive **LLM Response**
-
-### Phase 2: Speech-to-Text (STT) 🟢
-- **Audio Recorder** captures voice input from user
-- **Speech to Text (STT AI Model)** converts audio to text
-- Transcribed query is sent to Gemini for processing
+### Phase 2: AI Processing (Google Gemini) 🟡
+1. User uploads medical image
+2. Receives transcribed text/user query
+3. **Multimodal LLM (Gemini 2.0 Flash)** processes both image and text simultaneously
+4. Generates intelligent medical analysis based on visual + textual context
+5. Returns comprehensive **LLM Response**
 
 ### Phase 3: Text-to-Speech (ElevenLabs) 🔵
-- Receives AI-generated text response
-- **Text to Speech (TTS AI Model)** by ElevenLabs converts text to natural speech
-- Outputs **audio file** for playback to user
+1. Receives AI-generated text response
+2. **ElevenLabs TTS API** converts text to natural speech
+3. Outputs **audio file** for playback to user
+
+---
+
+## 🛠️ Tech Stack
+
+| Component | Technology |
+|-----------|------------|
+| **Frontend** | Gradio 4.44.0 |
+| **AI Model** | Google Gemini 2.0 Flash (Experimental) |
+| **Speech-to-Text** | Google Speech Recognition API |
+| **Text-to-Speech** | ElevenLabs API |
+| **Fallback TTS** | gTTS (Google Text-to-Speech) |
+| **Backend** | Python 3.8+ |
+| **Deployment** | Render |
+
+---
+
+## 🚀 Live Demo
+
+**Access the live application:** [https://medisenseai-yn0a.onrender.com](https://medisenseai-yn0a.onrender.com)
+
+### How to Use:
+
+1. **Upload Medical Image**: Click on image upload area and select a medical scan/X-ray
+2. **Record Question**: Click microphone icon and speak your question clearly
+3. **Get AI Analysis**: Wait for Gemini AI to analyze the image and question
+4. **Listen to Response**: Hear the AI doctor's response in natural voice
+5. **Read Text**: Review both your question and the response in text format
+
+---
+
+## 📥 Installation (Local Setup)
+
+### Prerequisites
+
+- Python 3.8 or higher
+- Google Gemini API Key ([Get here](https://aistudio.google.com/app/apikey))
+- ElevenLabs API Key ([Get here](https://elevenlabs.io/app/settings/api-keys))
+
+### Setup Steps
+
+1. **Clone the repository**
+
 
 ## 🛠️ Tech Stack
 
