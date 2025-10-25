@@ -1,0 +1,7 @@
+# In project folder, create .gitignore
+.env
+__pycache__/
+*.pyc
+*.mp3
+*.wav
+.DS_Store
