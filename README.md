@@ -8,7 +8,7 @@
 ![ElevenLabs](https://img.shields.io/badge/ElevenLabs-TTS-purple?style=for-the-badge)
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=render)](https://medisenseai-yn0a.onrender.com)
 
-**[🚀 Try Live Demo](https://medisenseai-yn0a.onrender.com)** |
+**[🚀 Try Live Demo](https://medisenseai-yn0a.onrender.com)** 
 
 </div>
 
