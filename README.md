@@ -34,7 +34,7 @@ MediSenseAI is an end-to-end AI-powered medical assistant that enables users to 
 
 ---
 🛠 Workflow Architecture
-The application follows a modular, clinical-grade architecture designed for scalability, accuracy, and efficient user interaction. The general workflow consists of the following major components:
+The application follows a modular, clinical-grade architecture designed for scalability, accuracy, and efficient user interaction. The general workflow consists of the following major components(https://github.com/Keshavkumarr0/MediSenseAI/blob/main/workflow%20architecture.png)
 
 ## 🏗️ Technical Architecture
 
