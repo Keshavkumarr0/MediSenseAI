@@ -83,6 +83,24 @@ The application follows a three-phase workflow:
 4. **Listen to Response**: Hear the AI doctor's response in natural voice
 5. **Read Text**: Review both your question and the response in text format
 
+  ---
+
+## 🏎️ Performance Report
+
+Check out the latest GTmetrix performance analysis of this AI Doctor application:
+
+![GTmetrix Performance Screenshot]()
+
+- **GTmetrix Grade:** A (94% Performance, 99% Structure)
+- **Largest Contentful Paint (LCP):** 1.6s
+- **Total Blocking Time (TBT):** 100ms
+- **Cumulative Layout Shift (CLS):** 0
+
+This means the app loads fast, responds instantly, and the layout stays stable for best user experience.
+
+---
+ 
+
 
 ## 🚀 Getting Started
 
