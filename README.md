@@ -33,8 +33,10 @@ MediSenseAI is an end-to-end AI-powered medical assistant that enables users to 
 - 🔒 **Secure**: Environment-based API key management
 
 ---
-🛠 Workflow Architecture
-The application follows a modular, clinical-grade architecture designed for scalability, accuracy, and efficient user interaction. The general workflow consists of the following major components (https://github.com/Keshavkumarr0/MediSenseAI/blob/main/workflow%20architecture.png)
+## 🧩 Architecture Diagram
+
+![System Architecture](reports/architecture-diagram.jpg)
+
 
 ## 🏗️ Technical Architecture
 
