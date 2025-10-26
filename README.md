@@ -14,7 +14,7 @@
 
 ---
 
-## 📋 Overview
+## 📋 Overview 
 
 MediSenseAI is an end-to-end AI-powered medical assistant that enables users to upload medical images and ask questions about them using voice input. The system analyzes the images using Google's Gemini multimodal AI and responds with both text and natural voice output powered by ElevenLabs TTS.
 
