@@ -89,7 +89,7 @@ The application follows a three-phase workflow:
 
 Check out the latest GTmetrix performance analysis of this AI Doctor application:
 
-![GTmetrix Performance Screenshot]()
+![GTmetrix Performance Screenshot](https://github.com/Keshavkumarr0/MediSenseAI/blob/main/Screenshot%20(478).png)
 
 - **GTmetrix Grade:** A (94% Performance, 99% Structure)
 - **Largest Contentful Paint (LCP):** 1.6s
