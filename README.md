@@ -35,7 +35,7 @@ MediSenseAI is an end-to-end AI-powered medical assistant that enables users to 
 ---
 ## 🧩 Architecture Diagram
 
-![System Architecture](reports/architecture-diagram.jpg)
+![System Architecture](https://github.com/Keshavkumarr0/MediSenseAI/blob/main/workflow%20architecture.png)
 
 
 ## 🏗️ Technical Architecture
